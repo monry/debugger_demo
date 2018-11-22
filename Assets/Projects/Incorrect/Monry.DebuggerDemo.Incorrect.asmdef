@@ -1,0 +1,14 @@
+{
+    "name": "Monry.DebuggerDemo.Incorrect",
+    "references": [
+        "umm@unirx"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
