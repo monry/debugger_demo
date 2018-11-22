@@ -1,0 +1,30 @@
+{
+  "name": "@monry/debugger_demo",
+  "version": "1.0.0",
+  "description": "Demo for Debugger",
+  "homepage": "https://github.com/monry/debugger_demo",
+  "bugs": {
+    "url": "https://github.com/monry/debugger_demo/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Tetsuya Mori",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:monry/debugger_demo"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/unirx": "umm/unirx#^2.0.0"
+  },
+  "devDependencies": {}
+}
